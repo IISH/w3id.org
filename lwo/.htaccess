@@ -1,0 +1,8 @@
+# Name of the project: test
+# Maintainer: Lucien
+
+Header set Access-Control-Allow-Origin *
+Options +FollowSymLinks
+RewriteEngine on
+
+RewriteRule ^$ https://iisg.amsterdam/ [R=302,L]
